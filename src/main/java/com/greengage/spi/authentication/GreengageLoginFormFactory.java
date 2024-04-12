@@ -11,7 +11,7 @@ import org.keycloak.provider.ProviderConfigProperty;
 import java.util.Arrays;
 import java.util.List;
 
-public class AndroidLoginFormFactory implements AuthenticatorFactory {
+public class GreengageLoginFormFactory implements AuthenticatorFactory {
     @Override
     public String getId() {
         return "greengage-authenticator";
@@ -60,7 +60,7 @@ public class AndroidLoginFormFactory implements AuthenticatorFactory {
 
     @Override
     public Authenticator create(KeycloakSession session) {
-        return new AndroidLoginForm();
+        return new GreengageLoginForm();
     }
 
     @Override

@@ -18,7 +18,7 @@
                         <div class="g-recaptcha" data-size="compact" data-sitekey="${recaptchaSiteKey}"></div>
                     </div>
                 </div>
-            </#if
+            </#if>
 
             <!-- Form Options and Buttons -->
             <div class="${properties.kcFormGroupClass!}">

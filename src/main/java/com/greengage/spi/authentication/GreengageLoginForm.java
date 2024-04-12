@@ -7,7 +7,7 @@ import org.keycloak.models.RealmModel;
 import org.keycloak.models.UserModel;
 
 
-public class AndroidLoginForm extends OTPFormAuthenticator {
+public class GreengageLoginForm extends OTPFormAuthenticator {
 
     private static final String FIRST_LOGIN_GREENGAGE = "first-login-greegage.ftl";
 
